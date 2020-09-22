@@ -72,19 +72,19 @@ class MenuBarApp(rumps.App):
         random_desktop("red")
 
     @rumps.clicked(BLUE)
-    def change_to_red(self):
+    def change_to_blue(self):
         random_desktop("blue")
 
     @rumps.clicked(YELLOW)
-    def change_to_red(self):
+    def change_to_yellow(self):
         random_desktop("yellow")
 
     @rumps.clicked(PURPLE)
-    def change_to_red(self):
+    def change_to_purple(self):
         random_desktop("purple")
 
     @rumps.clicked(BLACK)
-    def change_to_red(self):
+    def change_to_black(self):
         random_desktop("black")
 
 
